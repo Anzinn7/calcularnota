@@ -1,0 +1,54 @@
+#menu {
+    width: 200px;
+    height: 200px;
+    margin: 100px auto;
+    box-shadow: 0px 0px 5px 0px black;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+header {
+    background-color: rgb(0, 76, 255);
+    color: white;
+    margin: -19px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+#menu input {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 1px 1px black;
+}
+
+#menu button {
+    border-radius: 10px;
+    background-color: rgb(0, 102, 255);
+    margin: 20px;
+    color: white;
+    padding: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+.btns {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    
+}

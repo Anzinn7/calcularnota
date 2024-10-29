@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <header>
+            <h3>CalcularNota</h3>
+        </header>
+        <main>
+
+            <div id="menu">
+                <input id="nota" type="number" placeholder="digite sua nota"> <br>
+                <input id="faltas" type= "number" placeholder="digite quantas faltas"> <br>
+                <input id="resultado" type="text" value='' disabled>
+            
+                <div class="btns">
+                    <button id="calc" onclick="calcularNota()">calcular</button>
+                    <button id="clear" onclick="limparNota()">limpar</button>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
